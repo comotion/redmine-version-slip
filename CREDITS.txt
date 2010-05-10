@@ -1,0 +1,3 @@
+Thanks go to the following people:
+
+* Little Stream Software - base code borrowed from the Issue Due Date plugin

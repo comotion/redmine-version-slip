@@ -1,0 +1,29 @@
+= Version Slip Notifier
+
+Version Slip Notifier will post News if the due date of an issue or milestone is modified. 
+
+== Getting the plugin
+
+A copy of the plugin can be downloaded from {Comotion's github page}[http://github.com/comotion/redmine-version-slip].
+
+
+== Installation and Setup
+
+1. Follow the Redmine plugin installation steps at: http://www.redmine.org/wiki/redmine/Plugins 
+2. Restart your Redmine web servers (e.g. mongrel, thin, mod_rails)
+3. (optional step) If you would like to convert of the existing issues, backup your database and run the rake task:
+
+    rake issue_due_date_plugin:update_due_dates RAILS_ENV=production
+
+== Usage
+
+The plugin entirely works in the background when Issues, Versions, or Deliverables are saved.
+
+== License
+
+This plugin is licensed under the GNU GPL v2.  See COPYRIGHT.txt and GPL.txt for details.
+
+== Project help
+
+If you need help you can contact the maintainer through github. The tracker can be found at http://github.com/comotion/redmine-version-slip
+
